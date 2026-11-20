@@ -1,0 +1,117 @@
+* {
+    margin: 100;
+    padding: 200;
+    box-sizing: border-box;
+}
+h1 {
+    color: red;
+}
+#heading {
+    color:blue;
+}
+.demo {
+    color: green;
+    font-weight: bold;
+    background-color: lightgreen;
+    padding: 8px;
+}
+div p {
+    color:yellow;
+}
+.container > p {
+    color: blue;
+    font-weight: bold;
+}
+h2+p {
+    color:aqua;
+}
+h2~p{
+    color:aqua;
+}
+input[type="text"] {
+    background-color: lightpink;
+}
+input[type="password"] {
+    background-color: lightblue;
+}
+input[type="email"] {
+    background-color: lightgreen;
+}
+button:hover {
+    background-color: orange;
+    color: white;
+}
+button:active {
+    background-color: red;
+}
+input:focus {
+    outline: 2px solid blue;
+    background-color: lightyellow;
+}
+li:first-child {
+    color: red;
+    font-weight: bold;
+}
+li:last-child {
+    color: greenyellow;
+}
+li:nth-child(2) {
+    background-color: lightcoral;
+}
+input:checked {
+    accent-color: green;
+}
+input:disabled {
+    background-color: gray;
+    color: white;
+}
+input:not([type="checkbox"]) {
+    border-radius: 4px;
+}
+.pseudo::first-letter {
+    font-size: 30px;
+    color: red;
+    font-weight: bold;
+}
+
+/* ::first-line
+   Styles the first line of paragraph */
+.pseudo::first-line {
+    color: blue;
+}
+/*::before
+   Inserts content before heading content */
+.after::before {
+    content: "★ ";
+    color: goldenrod;
+}
+
+/* ::after
+   Inserts content after heading content */
+.after::after {
+    content: "!";
+    color: red;
+}
+
+/* ::selection
+   Styles text selected by the user */
+::selection {
+    background-color: lightgreen;
+    color: red;
+}
+p {
+    color: blue;
+}
+
+/* Class selector - higher than element selector */
+.text {
+    color: green;
+}
+
+/* ID selector - higher than class selector */
+#para {
+    color: red;
+}
+
+
+
